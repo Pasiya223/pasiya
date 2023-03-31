@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ab1e4622f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container main-bg-img">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+                <ul id="sidemenu">
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Extra</a></li>
+                    <li><a href="#portofolio">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="bx bxs-moon" id="d"></div>
+
+            <div class="header-text">
+                <p>UNDERGRADUATE</p>
+                <h1>Hi, I'm <span>Pasindu</span> <br> Piyamal</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container" <div class="row">
+            <div class="about-col-1">
+                <img src="Abc.jpg" width="250" height="" style="margin-top: 25px;">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Pasindu Piyamal Wickrama Arachchi , an undergraduate student following a bechelor's degree in Data Sceience at SLTC Reserch Univercity. With my perseverance, strategic thinking and commitment to excellence, I believe I Ican be a valuable
+                    asset to any team or organization.</p>
+                <style>
+                    .about-col-1 {
+                        float: left;
+                        width: 200px;
+                        margin-right: 65px;
+                    }
+                    
+                    .about-col-2 {
+                        overflow: hidden;
+                    }
+                </style>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('talent')">Talents</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div>
+                    <div class="tab-contents active-tab" id="talent">
+                        <ul>
+                            <li><span>Web Development</span><br>Web Page Development</li>
+                            <li><span>Photo Editing</span><br>Photoshop&Lightroom</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Team Work</span><br></li>
+                            <li><span>Problem Solving</span><br></li>
+                            <li><span>Loyalty</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SLTC Research University</span><br>Course-BSc Hons.in IT(Data Sceience)
+                            </li>
+                            <li><span>St'Anne's College Kurunegala</span><br>2007-2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------Extra Curricular Activities---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Extra Curricular Activities</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-hand-fist"></i>
+                    <h2>Basketball</h2>
+                    <p>I have played under 19 team in this game,I have many awadrs in this game, I have a wide understanding of this game. </p>
+                    <a href="#">Back</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-running"></i>
+                    <h2>Cricket</h2>
+
+                    <p>I have played 15 under team in this game</p>
+                    <a href="#">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------portfolio----Mywork---------- -->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">Interests</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="jsd.jpg" style="width: 350px; height: 200px;">
+                    <div class="layer">
+                        <h3>Marketing</h3>
+                        <p>Sa form of marketing businesses that provide a service to their customers use to increase brand awareness and sales</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo-1626785774573-4b799315345d.jpg" style="width: 350px; height: 200px;">
+                    <div class="layer">
+                        <h3>Graphic Designer</h3>
+                        <p>a craft where professionals create visual content to communicate messages</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="shutterstock_369815435-800x450.jpg" style="width: 370px; height: 200px;">
+
+                    <div class="layer">
+                        <h3>Data Analysor</h3>
+                        <p>Looking for Bulk Data Processing or smart Data Reconciliation methods, you are just one step away.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Scroll Up</a>
+        </div>
+
+
+        <!----------------------contact----------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>piyamalpasindu250@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+94 771 134353</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/pasindu.piyamal?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?i=t28rc5wpjgel&utm_content=22vm2p0"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="Pasindu cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©. Made By Pasindu Piyamal<i class="fa-solid fa-head-side-headphones"></i></p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+
+
+            }
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu")
+
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwk42OsIorgH88I-JbmQFvyakxDKgbrKEqWZZEPhXWEqETP7hpo_8NGkXxKSCq3H_I/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
